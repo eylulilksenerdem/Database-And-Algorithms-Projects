@@ -1,0 +1,13 @@
+Merge Sort Projesi
+[16,21,11,8,12,22]--Merge Sort
+1)Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+[16,21,11] ve [8,12,22] şeklinde eşit elemanlı parçaladım.
+[16,21] [11] ve [8,12] [22] şeklinde 2'ye 1 elemanlı parçaladım.
+[16] [21] [11] ve [8] [12] [22] şeklinde birer elemanlı parçaladım.
+[11,16,21] ve [8,12,22] şeklinde kendi aralarında sıraladım.
+[8,11,12,16,21,22] şeklinde birleştirdim ve dizinin son hali ortaya çıktı.
+
+2)Big-O gösterimlerini yazınız.
+Worstcase--O(nlogn)
+Avaragecase--O(nlogn)
+Bestcase--O(nlogn)
